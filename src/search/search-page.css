@@ -1,0 +1,57 @@
+
+.youtubeImg{
+    width: 25%;
+    height: 200px;
+}
+#Input {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 50%;
+    font-size: 16px;
+    padding: 12px 20px 12px 12px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    outline: none;
+  }
+
+  .row{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-row-gap: 5%;
+    grid-column-gap: 1%;
+    margin: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+
+.thumbNail-row{
+    display: flex;
+}
+
+.thumbNail-row span{
+    color: black;
+}
+.thumbnails{
+    width: 40px;
+    height: 20px;
+}
+
+.button {
+    width: 50px;
+    padding: 10px;
+    background: gray;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .Button{
+    float:right;
+    width:150px;
+    font-size:15px;
+    background: linen  !important;
+  }
