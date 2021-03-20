@@ -55,3 +55,9 @@
     font-size:15px;
     background: linen  !important;
   }
+
+  @media only screen and (max-width: 768px) {
+    .row{
+        display: block;
+    }
+  }
